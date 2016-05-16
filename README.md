@@ -3,6 +3,18 @@
 #How to use? 
 Clone the repository and use node server.js in the terminal. The localhost is 8080
 
+#Finished
+Built question and thank you pages.
+Randomized Questions on load.
+Low ratings bring up a textarea.
+You can edit your smileys and click to go to a new page.
+Logo links to support.Butterfly.ai
+All of this is functional for all the pages
+
+#In Progress
+Responsiveness to all devices
+Node/Express HTML pages respond to queries
+
 #I've spent two days of time doing this exercise:
 During each part I will explain what I have done for each
 
@@ -63,3 +75,4 @@ Eric: Overall the pages load pretty quickly. There isn't any JavaScript or large
 Commit your code to Github with quick Readme expaining how to run it and ask alekseykulikov (https://github.com/alekseykulikov) to review.
 
 Let us know how much time you spent (don’t spend much), try to make it fun hacking exercise :-)
+Eric: Thank you so much for sending me this challenge! This was a lot of fun and will love to keep cracking at it. ;)
