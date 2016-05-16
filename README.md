@@ -5,14 +5,20 @@ Clone the repository and use node server.js in the terminal. The localhost is 80
 
 #Finished
 Built question and thank you pages.
+
 Randomized Questions on load.
+
 Low ratings bring up a textarea.
+
 You can edit your smileys and click to go to a new page.
+
 Logo links to support.Butterfly.ai
+
 All of this is functional for all the pages
 
 #In Progress
 Responsiveness to all devices
+
 Node/Express HTML pages respond to queries
 
 #I've spent two days of time doing this exercise:
