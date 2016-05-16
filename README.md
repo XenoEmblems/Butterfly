@@ -66,7 +66,7 @@ Eric: Finally self explanatory. I set that up really quickly.
 
 Of course this pages needs to be responsive for desktop and mobile devices. As well as work for retina screens.
 
-I'm very good when it comes to responsiveness and I can make the page responsive for all devices like I did with m.dunkeyscastle.com and made it responsive for all devices. (I know its m dot and its nearly obsolete but that's what the client wanted.) I wanted to prioritize functionality over responsiveness for the coding exercise. By Thursday when we meet I will have the pages responsive.
+I'm very good when it comes to responsiveness and I can make the page responsive for all devices like I did with http://m.dunkeyscastle.com and made it responsive for all devices. (Before you remark on anything I know it's m dot and it's nearly obsolete but that's what the client wanted. >_>) I wanted to prioritize functionality over responsiveness for the coding exercise currently. Before or by Thursday at the latest when we meet I will have the pages responsive.
 
 Technical details:
 Create node.js server, that responds with html page based on query param (/?v=5 - Awesome! /?v=4 - Great! /?v=3 - OK, /?v=2 - Mmmmh... /?v=1 - Oops)
