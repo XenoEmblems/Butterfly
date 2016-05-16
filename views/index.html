@@ -7,6 +7,8 @@
     <title>Butterfly</title>
     
     <link href="css/style.css" rel="stylesheet">
+    <!-- Star Rating -->
+    <script async src="https://cdnjs.cloudflare.com/ajax/libs/webcomponentsjs/0.7.21/webcomponents.min.js"></script>
 
   </head>
   
@@ -92,29 +94,108 @@
 
     </div>
     <br>
+
+            
     <div class="anonymous">
         <form>
             <div class="form-heading">
                 <p>Your answers will always remain anonymous</p>
             </div>
             <h3>Do you agree with the following statements?</h3>
-            <br>
-            <div id="1" class="question">
-                <h1>1</h1>
+            <div id="1" class="question ratingsForm">
+                <h4 class="question-title">I am satisfied with my roles and responsibilities.</h4>
+                
+                <fieldset class="rating one">
+                    <input type="radio" id="star5" name="rating" value="5" /><label for="star5" title="Rocks!"><span>&#9733</span></label>
+                    <input type="radio" id="star4" name="rating" value="4" /><label for="star4" title="Pretty good"><span>&#9733</span></label>
+                    <input type="radio" id="star3" name="rating" value="3" /><label for="star3" title="Meh"><span>&#9733</span></label>
+                    <input type="radio" id="star2" name="rating" value="2" /><label for="star2" title="Kinda bad"><span>&#9733</span></label>
+                    <input type="radio" id="star1" name="rating" value="1" /><label for="star1" title="Sucks big time"><span>&#9733</span></label>
+                    
+                </fieldset>
+                <br>
+                <textarea name="Explain1" cols="50" rows="5" placeholder="Please explain..."></textarea>
+                
+                     
+
+               
+                <br>
             </div>
-            <div id="2" class="question">
-                <h1>2</h1>
+            <div id="2" class="question ratingsForm">
+                <br>
+                <h4 class="question-title">I feel like I have a healthy work/life balance.</h4>
+                  <fieldset class="rating two">
+                    <input type="radio" id="star5-1" name="ratingtwo" value="5" /><label for="star5-1" title="Rocks!"><span>&#9733</span></label>
+                    <input type="radio" id="star4-1" name="ratingtwo" value="4" /><label for="star4-1" title="Pretty good"><span>&#9733</span></label>
+                    <input type="radio" id="star3-1" name="ratingtwo" value="3" /><label for="star3-1" title="Meh"><span>&#9733</span></label>
+                    <input type="radio" id="star2-1" name="ratingtwo" value="2" /><label for="star2-1" title="Kinda bad"><span>&#9733</span></label>
+                    <input type="radio" id="star1-1" name="ratingtwo" value="1" /><label for="star1-1" title="Sucks big time"><span>&#9733</span></label>
+                    
+                  </fieldset>
+                  <br>
+                  <textarea name="Explain2" cols="50" rows="5" placeholder="Please explain..."></textarea>
+                  
+
+                
+                <br>
+
             </div>
-            <div id="3" class="question">
-                <h1>3</h1>
+            <div id="3" class="question ratingsForm">
+                <br>
+                <h4 class="question-title">I feel comfortable working and interacting with
+the colleagues on my team.</h4>
+                  <fieldset class="rating three">
+                    <input type="radio" id="star5-2" name="ratingthree" value="5" /><label for="star5-2" title="Rocks!"><span>&#9733</span></label>
+                    <input type="radio" id="star4-2" name="ratingthree" value="4" /><label for="star4-2" title="Pretty good"><span>&#9733</span></label>
+                    <input type="radio" id="star3-2" name="ratingthree" value="3" /><label for="star3-2" title="Meh"><span>&#9733</span></label>
+                    <input type="radio" id="star2-2" name="ratingthree" value="2" /><label for="star2-2" title="Kinda bad"><span>&#9733</span></label>
+                    <input type="radio" id="star1-2" name="ratingthree" value="1" /><label for="star1-2" title="Sucks big time"><span>&#9733</span></label>
+                    
+                  </fieldset>
+                  <br>
+                  <textarea name="Explain3" cols="50" rows="5" placeholder="Please explain..."></textarea>
+
+                
+                <br>
+
             </div>
-            <div id="4" class="question">
-                <h1>4</h1>
+            <div id="4" class="question ratingsForm">
+                <br>
+                <h4 class="question-title">I like my work environment, and I believe it helps
+me perform at my best.</h4>
+                  <fieldset class="rating four">
+                    <input type="radio" id="star5-3" name="ratingfour" value="5" /><label for="star5-3" title="Rocks!"><span>&#9733</span></label>
+                    <input type="radio" id="star4-3" name="ratingfour" value="4" /><label for="star4-3" title="Pretty good"><span>&#9733</span></label>
+                    <input type="radio" id="star3-3" name="ratingfour" value="3" /><label for="star3-3" title="Meh"><span>&#9733</span></label>
+                    <input type="radio" id="star2-3" name="ratingfour" value="2" /><label for="star2-3" title="Kinda bad"><span>&#9733</span></label>
+                    <input type="radio" id="star1-3" name="ratingfour" value="1" /><label for="star1-3" title="Sucks big time"><span>&#9733</span></label>
+                    
+                  </fieldset>
+                  <br>
+                  <textarea name="Explain4" cols="50" rows="5" placeholder="Please explain..."></textarea>
+
+                
+                <br>
+
             </div>
-            <div id="5" class="question">
-                <h1>5</h1>
+            <div id="5" class="question ratingsForm">
+                <br>
+                <h4 class="question-title">My direct manager gives me necessary support and clear objectives.</h4>
+                  <fieldset class="rating five">
+                    <input type="radio" id="star5-4" name="ratingfive" value="5" /><label for="star5-4" title="Rocks!"><span>&#9733</span></label>
+                    <input type="radio" id="star4-4" name="ratingfive" value="4" /><label for="star4-4" title="Pretty good"><span>&#9733</span></label>
+                    <input type="radio" id="star3-4" name="ratingfive" value="3" /><label for="star3-4" title="Meh"><span>&#9733</span></label>
+                    <input type="radio" id="star2-4" name="ratingfive" value="2" /><label for="star2-4" title="Kinda bad"><span>&#9733</span></label>
+                    <input type="radio" id="star1-4" name="ratingfive" value="1" /><label for="star1-4" title="Sucks big time"><span>&#9733</span></label>
+                    
+                  </fieldset>
+                  <br>
+                  <textarea name="Explain5" cols="50" rows="5" placeholder="Please explain..."></textarea>
+
+                
+                <br>
+
             </div>
-            <br>
 
             <div class="reply">
                 <br>
@@ -148,6 +229,8 @@
 
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/rateYo/2.1.1/jquery.rateyo.min.js"></script>
+
     <script src="js/clickevents.js"></script>
 
 </body>

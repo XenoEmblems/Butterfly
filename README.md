@@ -26,12 +26,23 @@ The edit smiley allows you to change the Smiley if you made a mistake on the pre
 C. Statements (ratings)
 Please implement all 5 questions (on render server should randomize an order)
 If the user selects 1 or 2 stars, the extra feedback field appears (view example 1st statement)
+
+In progress
+
 D. “Anything to add” is a simple text field
+
+In progress
+
 E. Send Button active/inactive 
+
+In progress
 All text fields are not Mandatory ;-)
+
 F. Reaction on button click (when all stars selected) is simple text - “thank you“(see design)
 
 Of course this pages needs to be responsive for desktop and mobile devices. As well as work for retina screens.
+
+Once everything is operational I will focus on responsiveness.
 
 Technical details:
 Create node.js server, that responds with html page based on query param (/?v=5 - Awesome! /?v=4 - Great! /?v=3 - OK, /?v=2 - Mmmmh... /?v=1 - Oops)

@@ -62,12 +62,25 @@ body {
 }
 
 .question {
-  height:225px;
-  background-color:#000;
+  height:100%;
+  background-color:#fff;
   width:70%;
   margin-left:15%;
   margin-right:15%;
   border-radius: 25px;
+  margin-top:20px;
+  margin-bottom:20px;
+  color: #000;
+
+}
+
+.question textarea {
+  display:none;
+}
+
+.question-title {
+  margin-left:10%;
+  margin-right:10%;
 }
 
 .reply {
@@ -95,3 +108,60 @@ body {
   background: #166e78;
   text-decoration: none;
 }
+
+/*Star Rating*/
+
+.rating {
+  margin-left: 25%;
+  margin-right: 25%;
+}
+
+.rating:not(:checked) > input {
+  position:absolute;
+  clip:rect(0,0,0,0);
+}
+
+.rating:not(:checked) > label {
+  float:right;
+  width:1em;
+  padding:0 .1em;
+  overflow:hidden;
+  white-space:nowrap;
+  cursor:pointer;
+  font-size:200%;
+  line-height:1.2;
+  color:#ddd;
+  text-shadow:1px 1px #bbb, 2px 2px #666, .1em .1em .2em rgba(0,0,0,.5);
+}
+
+.rating:not(:checked) > label:before {
+  content: &#9733;
+}
+
+.rating > input:checked ~ label {
+  color: #ff7700;
+  text-shadow:1px 1px #c60, 2px 2px #940, .1em .1em .2em rgba(0,0,0,.5);
+}
+
+.rating:not(:checked) > label:hover,
+.rating:not(:checked) > label:hover ~ label {
+  color: gold;
+  text-shadow:1px 1px goldenrod, 2px 2px #B57340, .1em .1em .2em rgba(0,0,0,.5);
+}
+
+.rating> input:checked + label:hover,
+.rating> input:checked + label:hover ~ label,
+.rating> input:checked ~ label:hover,
+.rating> input:checked ~ label:hover ~ label,
+.rating> label:hover ~ input:checked ~ label {
+  color: #ea0;
+  text-shadow:1px 1px goldenrod, 2px 2px #B57340, .1em .1em .2em rgba(0,0,0,.5);
+}
+
+.rating > label:active {
+  position:relative;
+  top:2px;
+  left:2px;
+}
+
+
