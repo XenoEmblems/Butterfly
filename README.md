@@ -75,4 +75,5 @@ Eric: Overall the pages load pretty quickly. There isn't any JavaScript or large
 Commit your code to Github with quick Readme expaining how to run it and ask alekseykulikov (https://github.com/alekseykulikov) to review.
 
 Let us know how much time you spent (don’t spend much), try to make it fun hacking exercise :-)
+
 Eric: Thank you so much for sending me this challenge! This was a lot of fun and will love to keep cracking at it. ;)
